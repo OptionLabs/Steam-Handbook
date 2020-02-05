@@ -1,0 +1,9 @@
+html, body {margin:0;padding:0;height:100%;}
+
+body {
+	background-image: url("../images/tarkov/background_wallpaper.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
