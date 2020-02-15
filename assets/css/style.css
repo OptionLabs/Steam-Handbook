@@ -1,0 +1,58 @@
+html, body {overflow:hidden;margin:0;padding:0;height:100%;}
+
+leftchunk {
+	float: left;
+	width: 33.33%;
+    width: calc(100% / 3);
+	background-image: url("../images/eftimg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	text-align: center;
+	
+	transition: background-size 2s;
+}
+
+middlechunk {
+	float: left;
+	width: 33.33%;
+    width: calc(100% / 3);
+	background-image: url("../images/huntimg.png");
+	backgorund-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	text-align: center;
+	
+	transition: background-size 2s;
+}
+
+rightchunk {
+	float: left;
+	width: 33.33%;
+    width: calc(100% / 3);
+	background-image: url("../images/destinyimg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	text-align: center;
+	
+	transition: background-size 2s;
+}
+
+leftchunk:hover {
+	transition: background-size 3s;
+	background-size: 125%;
+}
+
+middlechunk:hover {
+	transition: background-size 3s;
+	background-size: 125%;
+}
+
+rightchunk:hover {
+	transition: background-size 3s;
+	background-size: 125%;
+}

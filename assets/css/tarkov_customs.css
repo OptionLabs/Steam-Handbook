@@ -1,0 +1,183 @@
+html, body {overflow:hidden;font-size: 2vmin;margin:0;padding:0;height:100%;}
+
+body {
+	background-image: url("../images/tarkov/background_wallpaper.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+navholder {
+	float: left;
+	width: 10vw;
+	height: 100vh;
+}
+
+navchunk {
+	position: fixed;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	width: 10vw;
+	height: 100vh;
+	text-align: left;
+}
+
+contentchunk {
+	width: 90vw;
+	height: 100vh;
+	text-align: center;
+}
+
+cc_h1 {
+	float: left;
+	width: 30vw;
+	height: 5vh;
+	/*background-color: yellow;*/
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+cc_h2 {
+	float: left;
+	width: 30vw;
+	height: 5vh;
+	/*background-color: brown;*/
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+cc_h3 {
+	float: left;
+	width: 30vw;
+	height: 5vh;
+	/*background-color: orange;*/
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+cc_s1 {
+	float: left;
+	width: 30vw;
+	height: 100vh;
+	/*background-color: blue;*/
+	text-align: center;
+}
+
+cc_s2 {
+	float: left;
+	width: 30vw;
+	height: 100vh;
+	/*background-color: purple;*/
+	text-align: center;
+}
+
+cc_s3 {
+	float: left;
+	width: 30vw;
+	height: 100vh;
+	/*background-color: green;*/
+	text-align: center;
+}
+
+.cc_c1 {
+	overflow: auto;
+	width: 100%; /* Width is required as a step to hide the scroll-bar */
+	height: 95%; /* Stops content from going off the bottom of the screen. Customizeable. */
+	padding-right: 2000px; /* This should be set to the size of the scroll-bar. Firefox is about 17px. */
+}
+
+.cc_c2 {
+	overflow: auto;
+	width: 100%; /* Width is required as a step to hide the scroll-bar */
+	height: 93%; /* Stops content from going off the bottom of the screen. Customizeable. */
+	padding-right: 2000px; /* This should be set to the size of the scroll-bar. Firefox is about 17px. */
+}
+
+.cc_c3 {
+	overflow: auto;
+	width: 100%; /* Width is required as a step to hide the scroll-bar */
+	height: 93%; /* Stops content from going off the bottom of the screen. Customizeable. */
+	padding-right: 2000px; /* This should be set to the size of the scroll-bar. Firefox is about 17px. */
+}
+
+ /* unvisited link */
+a:link {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+.navmaintitle {
+	text-align: center;
+	color: #9a8866;
+}
+
+.navsubtitle {
+	text-align: center;
+	color: #9a8866;
+	text-decoration: strong;
+}
+
+p.navlisting {
+	text-indent: 5px;
+	line-height: 20px;
+}
+
+p.tablelistingname {
+	background-color: black;
+	display: inline;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+p.chartdetail {
+	line-height: 0px;
+	text-align: left;
+}
+
+.cc_heading1 {
+	text-align: center;
+	color: #9a8866;
+	text-decoration: strong;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table, td, th {
+	/*border: 1px solid #ddd;*/
+	border: none;
+	text-align: center;
+	color: #9a8866;
+}
+
+table {
+	border-collapse: collapse;
+	width: 103%;
+  
+}
+
+th, td {
+	padding-top: 10px;
+	padding-bottom: 6px;
+}

@@ -1,0 +1,138 @@
+html, body {overflow:hidden;font-size: 2vmin;margin:0;padding:0;height:100%;}
+
+body {
+	background-image: url("../images/tarkov/background_wallpaper.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+navholder {
+	float: left;
+	width: 10vw;
+	height: 100vh;
+}
+
+navchunk {
+	position: fixed;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	width: 10vw;
+	height: 100vh;
+	text-align: left;
+}
+
+subnavlinks {
+	position: fixed;
+	left: 15vw;
+	top: 22vh;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	width: 10vw;
+	height: 30vh;
+	text-align: center;
+}
+
+contentchunk {
+	width: 90vw;
+	height: 100vh;
+	text-align: center;
+}
+
+cc_h1 {
+	float: left;
+	width: 90vw;
+	height: 5vh;
+	/*background-color: yellow;*/
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+cc_s1 {
+	overflow: auto;
+	float: left;
+	width: 90vw;
+	height: 95vh;
+	/*background-color: blue;*/
+	text-align: center;
+	/*background-image: url("../images/tarkov/ammochart.png");*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	/*background-size: contain;*/
+}
+
+ /* unvisited link */
+a:link {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+.navmaintitle {
+	text-align: center;
+	color: #9a8866;
+}
+
+.navsubtitle {
+	text-align: center;
+	color: #9a8866;
+	text-decoration: strong;
+}
+
+p.navlisting {
+	text-indent: 5px;
+	line-height: 20px;
+}
+
+.cc_heading1 {
+	text-align: center;
+	color: #9a8866;
+	text-decoration: strong;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table, td, th {
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #9a8866;
+}
+
+table {
+	border-collapse: collapse;
+	width: 103%;
+  
+}
+
+th, td {
+	padding-top: 10px;
+}
+
+img.ammochart {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	
+	/*max-width: 100%;*/
+	/*height: auto;*/
+	width: 50vw; /* While this scales to size much better the image becomes slightly blurry */
+}

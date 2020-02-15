@@ -1,0 +1,119 @@
+html, body {overflow:hidden;font-size: 2vmin;margin:0;padding:0;height:100%;}
+
+body {
+	background-image: url("../images/tarkov/background_wallpaper.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+navholder {
+	float: left;
+	width: 10vw;
+	height: 100vh;
+}
+
+navchunk {
+	position: fixed;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	width: 10vw;
+	height: 100vh;
+	text-align: left;
+}
+
+contentchunk {
+	width: 90vw;
+	height: 100vh;
+	text-align: center;
+}
+
+cc_s1 {
+	float: left;
+	width: 30vw;
+	height: 50vh;
+	/*background-color: blue;*/
+	text-align: center;
+}
+
+cc_s2 {
+	float: left;
+	width: 30vw;
+	height: 50vh;
+	/*background-color: purple;*/
+	text-align: center;
+}
+
+cc_s3 {
+	float: left;
+	width: 30vw;
+	height: 50vh;
+	/*background-color: green;*/
+	text-align: center;
+}
+
+cc_s4 {
+	float: left;
+	width: 30vw;
+	height: 50vh;
+	/*background-color: yellow;*/
+	text-align: center;
+}
+
+cc_s5 {
+	float: left;
+	width: 30vw;
+	height: 50vh;
+	/*background-color: orange;*/
+	text-align: center;
+}
+
+cc_s6 {
+	float: left;
+	width: 30vw;
+	height: 50vh;
+	/*background-color: brown;*/
+	text-align: center;
+}
+
+ /* unvisited link */
+a:link {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: #9a8866;
+	text-decoration: none;
+}
+
+.navmaintitle {
+	text-align: center;
+	color: #9a8866;
+}
+
+.navsubtitle {
+	text-align: center;
+	color: #9a8866;
+	text-decoration: strong;
+}
+
+p.navlisting {
+	text-indent: 5px;
+	line-height: 20px;
+}
