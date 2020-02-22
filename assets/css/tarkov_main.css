@@ -1,7 +1,8 @@
-html, body {overflow:hidden;font-size: 2vmin;margin:0;padding:0;height:100%;}
+html, body {overflow:hidden;font-size: 2vmin;margin:0;padding:0;height:100%;font-family: "Arial", Helvetica, sans-serif;}
 
 body {
 	background-image: url("../images/tarkov/background_wallpaper.jpg");
+	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -116,4 +117,14 @@ a:active {
 p.navlisting {
 	text-indent: 5px;
 	line-height: 20px;
+}
+
+p.navlistinghidden {
+	text-indent: 5px;
+	line-height: 20px;
+	visibility: hidden;
+}
+
+img.tarkovlogo {
+	width: 10vw; /* While this scales to size much better the image becomes slightly blurry */
 }

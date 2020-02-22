@@ -1,7 +1,8 @@
-html, body {overflow:hidden;font-size: 2vmin;margin:0;padding:0;height:100%;}
+html, body {overflow:hidden;font-size: 2vmin;margin:0;padding:0;height:100%;font-family: "Arial", Helvetica, sans-serif;}
 
 body {
 	background-image: url("../images/tarkov/background_wallpaper.jpg");
+	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -143,8 +144,15 @@ p.navlisting {
 }
 
 p.tablelistingname {
-	background-color: black;
-	display: inline;
+	background-color: rgba(0, 0, 0, 0.75);
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+p.tablelistingnameoffset {
+	background-color: rgba(0, 0, 0, 0.75);
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-top: 4px;
@@ -180,4 +188,26 @@ table {
 th, td {
 	padding-top: 10px;
 	padding-bottom: 6px;
+}
+
+tr.trtintlow {
+	padding-top: 10px;
+	padding-bottom: 6px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+tr.trtinthigh {
+	padding-top: 10px;
+	padding-bottom: 6px;
+	background-color: rgba(0, 0, 0, 0.50);
+}
+
+img.tarkovlogo {
+	width: 10vw; /* While this scales to size much better the image becomes slightly blurry */
+}
+
+img.chartimage {
+	border: 2px solid;
+	width: 200px;
+	height: 113px;
 }
